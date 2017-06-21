@@ -14,6 +14,7 @@
 		86DF9E9A1EFAE49D008DE209 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86DF9E981EFAE49D008DE209 /* LaunchScreen.storyboard */; };
 		86DF9EA51EFAE49E008DE209 /* TableViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DF9EA41EFAE49E008DE209 /* TableViewDemoTests.swift */; };
 		86DF9EB01EFAE49E008DE209 /* TableViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DF9EAF1EFAE49E008DE209 /* TableViewDemoUITests.swift */; };
+		86DF9EBE1EFAE847008DE209 /* NameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DF9EBD1EFAE847008DE209 /* NameCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		86DF9EAB1EFAE49E008DE209 /* TableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DF9EAF1EFAE49E008DE209 /* TableViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemoUITests.swift; sourceTree = "<group>"; };
 		86DF9EB11EFAE49E008DE209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DF9EBD1EFAE847008DE209 /* NameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NameCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				86DF9E961EFAE49D008DE209 /* Assets.xcassets */,
 				86DF9E981EFAE49D008DE209 /* LaunchScreen.storyboard */,
 				86DF9E9B1EFAE49D008DE209 /* Info.plist */,
+				86DF9EBD1EFAE847008DE209 /* NameCell.swift */,
 			);
 			path = TableViewDemo;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86DF9EBE1EFAE847008DE209 /* NameCell.swift in Sources */,
 				86DF9E921EFAE49D008DE209 /* ViewController.swift in Sources */,
 				86DF9E901EFAE49D008DE209 /* AppDelegate.swift in Sources */,
 			);
